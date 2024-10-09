@@ -1,0 +1,11 @@
+cidr_block                   = "10.0.0.0/16"
+shared_credentials_files     = ["~/.aws/credentials"]
+profile                      = "default"
+vpc_name                     = "management"
+private_subnets_counts       = 2
+public_subnets_counts        = 2
+region                       = "us-east-1"
+availability_zone            = ["us-east-1a", "us-east-1b"]
+public_key                   = "C:/Users/Abdul Musavvir/Desktop/Jenkins-project/Packer-Jenkins/id_rsa.pub"
+bastion_instance_type        = "t2.micro"
+jenkins_master_instance_type = "t2.large"
